@@ -16,6 +16,9 @@ int main()
 	double percentToDeduct_3 = 10;
 	double amountDeducted;
 
+	cout << "--------------------------------------------------" << endl;
+	cout << "My current monthly salary is $" << monthlySalary << endl;
+	cout << "--------------------------------------------------" << endl;
 	cout << "First potential deduction: " << endl;
 	amountDeducted = monthlySalary * (percentToDeduct_1 / 100);
 	cout << "Percent dedducted: " << 5 << "% ";
